@@ -1,0 +1,61 @@
+.content {
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.title-container {
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%); 
+    width: 100%;
+    transition: top 0.8s ease, transform 0.8s ease;
+}
+
+.title-container.moved-up {
+    top: 30px;
+    transform: translateY(0); 
+}
+
+h1 {
+    font-size: 100px;
+    transition: font-size 0.8s ease;
+}
+
+h1.small {
+    font-size: 50px;
+}
+
+.hidden-item {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.hidden-item.visible {
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 0.4s ease;
+}
+
+.languages {
+    display: inline-block;
+    font-weight: 600;
+}
+
+#flutter {
+    color: #00ccff;
+}
+
+#html {
+    color: #ff5e00;
+}
+
+#python {
+    color: #ffd900;
+}
+
+a {
+    color: grey;
+    font-weight: 600;
+    text-decoration: none;
+}

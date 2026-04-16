@@ -4,13 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js""></script>
     <title>Rabbit3c</title>
 </head>
-<body class="bg-dark text-light">
-    <div class="d-flex justify-content-center">
-        <span id="title" class="font-monospace display-1"></span>
-        <span id="cursor" class="display-1">|</span>
+<body class="bg-dark text-light font-monospace">
+    <div id="title-container" class="title-container">
+        <div class="d-flex justify-content-center">
+            <h1 id="title" class="fw-bold"></h1>
+            <h1 id="cursor">|</h1>
+        </div>
+    </div>
+    <div class="content">
+        <div class="row justify-content-center text-center">
+            <div class="col">
+                <h5 class="hidden-item">I am a Swiss student and developer</h5>
+                <h5 class="hidden-item">
+                    who uses
+                    <span class="languages" id="flutter">Flutter</span>,
+                    <span class="languages" id="html">HTML/CSS/JavaScript</span>
+                    and
+                    <span class="languages" id="python">Python</span>.
+                </h5>
+                <br>
+                <h2 class="hidden-item">Projects</h2>
+            </div>
+        </div>
+        <div class="row justify-content-center text-center">
+            <div class="col">
+                <h4 class="hidden-item">Gravity</h4>
+                <h5 class="hidden-item">A simple Space Exploration Game</h5>
+                <p class="hidden-item">Gravity is a simple browser space exploration game. It's inspired by games like Kerbal Space Program and Spaceflight Simulator. Gravity uses the JavaScript Canvas.</p>
+                <a href="/gravity" class="hidden-item">Play now!</a>
+            </div>
+            <div class="col">
+                <h4 class="hidden-item">Freequiz</h4>
+                <h5 class="hidden-item">An Android and iOS App to learn vocabulary</h5>
+                <p class="hidden-item">Freequiz is an Android and iOS App developed with the Flutter Framework. It's a free app to learn vocabulary as a pupil and student. Freequiz also has a website, which a friend of mine developed.</p>
+                <a href="https://www.freequiz.ch" target="_blank" class="hidden-item">Check out!</a>
+            </div>
+            <div class="col">
+                <h4 class="hidden-item">Homelab</h4>
+                <h5 class="hidden-item">A server running different services </h5>
+                <p class="hidden-item">The server runs on Proxmox with different services I use regularly: HomeAssistant, Nextcloud and OnlyOffice, Vaultwarden, Apache and Adguard Home</p>
+                <a href="/network" class="hidden-item">Open visualization</a>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row justify-content-center text-center">
+            <div class="col">
+                <h4 class="hidden-item">
+                    Check out my
+                    <a href="https://github.com/rabbit3c" target="_blank">Github</a>
+                </h4>
+            </div>
+        </div>
     </div>
     <script src="title.js"></script>
 </body>
