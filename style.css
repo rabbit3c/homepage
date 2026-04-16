@@ -1,7 +1,11 @@
+* {
+    cursor: none;
+}
+
 .content {
     padding-top: 100px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .title-container {
@@ -42,20 +46,76 @@ h1.small {
     font-weight: 600;
 }
 
-#flutter {
+.blue {
     color: #00ccff;
 }
 
-#html {
+.orange {
     color: #ff5e00;
 }
 
-#python {
+.yellow {
     color: #ffd900;
 }
 
+.green {
+    color: #00cc1b;
+}
+
+.bg-blue {
+    background-color: #00ccff;
+}
+
+.bg-orange {
+    background-color: #ff5e00;
+}
+
+.bg-yellow {
+    background-color: #ffd900;
+}
+
+.bg-green {
+    background-color: #00cc1b;
+}
+
+.bg-gray {
+    background-color: grey;
+}
+
 a {
+    display:inline-block;
     color: grey;
     font-weight: 600;
     text-decoration: none;
+}
+
+.mouse-pointer {
+    width: 10px;
+    height: 10px;
+    background-color: #00ccff;
+    border-radius: 50%;
+    position: absolute;
+
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.mouse-pointer.mouse-down {
+    width: 15px;
+    height: 15px;
+
+    transition: width 0.3s ease, height 0.3s ease;
+}
+
+.underline {
+	display: block;
+	height: 2px;
+	margin: 0 auto;
+	width: 0;
+    border-radius: 1px;
+	transition: width .2s linear;
+}
+
+*:hover>.underline {
+    width: 100%;
 }

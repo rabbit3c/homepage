@@ -9,58 +9,81 @@
     <title>Rabbit3c</title>
 </head>
 <body class="bg-dark text-light font-monospace">
+    <div class="mouse-pointer" id="mouse-pointer"></div>
     <div id="title-container" class="title-container">
         <div class="d-flex justify-content-center">
             <h1 id="title" class="fw-bold"></h1>
             <h1 id="cursor">|</h1>
         </div>
     </div>
-    <div class="content">
+    <div class="content hidden-item">
         <div class="row justify-content-center text-center">
             <div class="col">
-                <h5 class="hidden-item">I am a Swiss student and developer</h5>
-                <h5 class="hidden-item">
+                <h5>I am a Swiss student and developer</h5>
+                <h5>
                     who uses
-                    <span class="languages" id="flutter">Flutter</span>,
-                    <span class="languages" id="html">HTML/CSS/JavaScript</span>
+                    <span class="button languages blue">Flutter
+                        <span class="underline bg-blue"></span>
+                    </span>,
+                    <span class="button languages orange">HTML/CSS/JavaScript
+                        <span class="underline bg-orange"></span>
+                    </span>,
+                    <span class="button languages yellow">Python
+                        <span class="underline bg-yellow"></span>
+                    </span>
                     and
-                    <span class="languages" id="python">Python</span>.
+                    <span class="button languages green">others
+                        <span class="underline bg-green"></span>
+                    </span>.
                 </h5>
                 <br>
-                <h2 class="hidden-item">Projects</h2>
+                <br>
+                <h2>Projects</h2>
             </div>
         </div>
+        <br>
         <div class="row justify-content-center text-center">
             <div class="col">
-                <h4 class="hidden-item">Gravity</h4>
-                <h5 class="hidden-item">A simple Space Exploration Game</h5>
-                <p class="hidden-item">Gravity is a simple browser space exploration game. It's inspired by games like Kerbal Space Program and Spaceflight Simulator. Gravity uses the JavaScript Canvas.</p>
-                <a href="/gravity" class="hidden-item">Play now!</a>
+                <h3>Gravity</h3>
+                <h5>A simple Space Exploration Game</h5>
+                <p>Gravity is a simple browser space exploration game. It's inspired by games like Kerbal Space Program and Spaceflight Simulator. Gravity uses the JavaScript Canvas.</p>
+                <a href="/gravity" class=" button">Play now!
+                    <span class="underline bg-gray"></span>
+                </a>
             </div>
             <div class="col">
-                <h4 class="hidden-item">Freequiz</h4>
-                <h5 class="hidden-item">An Android and iOS App to learn vocabulary</h5>
-                <p class="hidden-item">Freequiz is an Android and iOS App developed with the Flutter Framework. It's a free app to learn vocabulary as a pupil and student. Freequiz also has a website, which a friend of mine developed.</p>
-                <a href="https://www.freequiz.ch" target="_blank" class="hidden-item">Check out!</a>
+                <h3>Freequiz</h3>
+                <h5>An Android and iOS App to learn vocabulary</h5>
+                <p>Freequiz is an Android and iOS App developed with the Flutter Framework. It's a free app to learn vocabulary as a pupil and student. Freequiz also has a website, which a friend of mine developed.</p>
+                <a href="https://www.freequiz.ch" target="_blank" class="button">Check out!
+                    <span class="underline bg-gray"></span>
+                </a>
             </div>
             <div class="col">
-                <h4 class="hidden-item">Homelab</h4>
-                <h5 class="hidden-item">A server running different services </h5>
-                <p class="hidden-item">The server runs on Proxmox with different services I use regularly: HomeAssistant, Nextcloud and OnlyOffice, Vaultwarden, Apache and Adguard Home</p>
-                <a href="/network" class="hidden-item">Open visualization</a>
+                <h3>Homelab</h3>
+                <h5>A server running different services </h5>
+                <p>The server runs on Proxmox with different services I use regularly: HomeAssistant, Nextcloud and OnlyOffice, Vaultwarden, Apache and Adguard Home</p>
+                <a href="/network" class="button">Open visualization
+                    <span class="underline bg-gray"></span>
+                </a>
             </div>
         </div>
+        <br>
+        <br>
         <br>
         <br>
         <div class="row justify-content-center text-center">
             <div class="col">
                 <h4 class="hidden-item">
                     Check out my
-                    <a href="https://github.com/rabbit3c" target="_blank">Github</a>
+                    <a href="https://github.com/rabbit3c" class="button" target="_blank">Github
+                        <span class="underline bg-gray"></span>
+                    </a>
                 </h4>
             </div>
         </div>
     </div>
     <script src="title.js"></script>
+    <script src="cursor.js"></script>
 </body>
 </html>
