@@ -1,5 +1,6 @@
-* {
+html {
     cursor: none;
+    min-height: 100%;
 }
 
 .content {
@@ -118,4 +119,29 @@ a {
 
 *:hover>.underline {
     width: 100%;
+}
+
+.project {
+    max-width: 600px;
+    padding: 20px;
+    margin: 20px;
+    border: solid;
+    border-radius: 20px;
+    border-color: grey;
+}
+
+.project:hover {
+    max-width: 604px;
+    padding: 22px;
+    margin: 18px;
+    border-radius: 22px;
+    transition: padding .1s ease, margin .1s ease, max-width .1s ease, border-radius .1s ease;
+}
+
+
+.footer {
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
 }
