@@ -61,6 +61,7 @@ body {
   text-align: center;
   border: solid 2px;
   border-color: #00db25;
+  min-height: 25vh;
 }
 
 .invisible {
@@ -81,7 +82,7 @@ body {
 }
 
 .title-container.moved-up {
-  top: 90px;
+  top: 110px;
   transform: translate(-50%, 0);
 }
 
@@ -99,7 +100,7 @@ h5 {
 }
 
 .space-title {
-  height: 100px;
+  height: 130px;
 }
 
 .hidden-item {
