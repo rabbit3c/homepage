@@ -290,7 +290,7 @@ a:hover {
   z-index: 1002;
   top: 45px;
   height: calc(100vh - 52px);
-  width: calc(100vw - 12px);
+  width: calc(100vw - 14px);
 
   border: none;
 }
