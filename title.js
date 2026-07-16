@@ -26,16 +26,16 @@ function animate() {
 }
 
 function animateCursor() {
-  if (cursor.classList.contains("black-green")) {
-    cursor.classList.remove("black-green");
+  if (cursor.classList.contains("invisible")) {
+    cursor.classList.remove("invisible");
   } else {
-    cursor.classList.add("black-green");
+    cursor.classList.add("invisible");
   }
 }
 
 function stopCursorAnimation() {
   clearInterval(interval);
-  cursor.classList.add("black-green");
+  cursor.classList.add("invisible");
 }
 
 function moveUp() {
