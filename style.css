@@ -161,8 +161,7 @@ a:hover {
 }
 
 .title-container.moved-up {
-  top: 110px;
-  transform: translate(-50%, 0);
+  top: 130px;
 }
 
 .space-title {

@@ -1,4 +1,3 @@
 Add Stats
 Custom Mousepointer
 ASCII Art
-Add Fullscreen Button
